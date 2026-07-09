@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<meta charset="utf-8">
+<title>Online Job Application Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+<section>
+<div id="container">
+ 
+<div id="left-section">
+<div id="company-logo">JD</div>
+<h2 id="company-name">JobDesk</h2>
+<p id="slogan">Your Success is Our Success</p>
+ 
+<ul id="steps">
+<li>Personal Info</li>
+<li>Job Info</li>
+<li>Education</li>
+<li>Additional Info</li>
+</ul>
+</div>
+ 
+<div id="right-section">
+<h1>Online Job Application Form</h1>
+<p class="form-subtitle">Please fill out every field below to complete your application.</p>
+ 
+<form action="#" method="post">
+ 
+<fieldset>
+<legend>Personal Information</legend>
+ 
+<div class="field">
+<label for="fullname">Full Name</label>
+<input type="text" class="input-box" id="fullname" name="fname" required>
+</div>
+ 
+<div class="field">
+<label for="nid">NID Number</label>
+<input type="text" class="input-box" id="nid" name="nid" required>
+</div>
+ 
+<div class="field">
+<label for="email">Email</label>
+<input type="text" class="input-box" id="email" name="email" required>
+</div>
+ 
+<div class="field">
+<label for="phone">Phone Number</label>
+<input type="text" class="input-box" id="phone" name="phone" required>
+</div>
+ 
+<div class="field">
+<label for="dob">Date of Birth</label>
+<input type="text" class="input-box" id="dob" name="dob" required>
+</div>
+ 
+<div class="field">
+<label>Gender</label>
+<div class="radio-group">
+<span>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+</span>
+<span>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+</span>
+<span>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+</span>
+</div>
+</div>
+</fieldset>
+ 
+<fieldset>
+<legend>Job Information</legend>
+ 
+<div class="field">
+<label for="position">Position Applied For</label>
+<select id="position" name="position">
+<option value="sd" selected>Software Developer</option>
+<option value="wd">Web Designer</option>
+<option value="ne">Network Engineer</option>
+<option value="da">Database Administrator</option>
+<option value="iso">IT Support Officer</option>
+</select>
+</div>
+ 
+<div class="field">
+<label for="experience">Years of Experience</label>
+<select id="experience" name="experience">
+<option value="fresher">Fresher</option>
+<option value="1-2">1-2 Years</option>
+<option value="3-5">3-5 Years</option>
+<option value="5+">More than 5 Years</option>
+</select>
+</div>
+ 
+<div class="field">
+<label>Skills</label>
+<div class="checkbox-group">
+<span>
+<input type="checkbox" name="skill" value="html" id="html">
+<label for="html">HTML</label>
+</span>
+<span>
+<input type="checkbox" name="skill" value="css" id="css">
+<label for="css">CSS</label>
+</span>
+<span>
+<input type="checkbox" name="skill" value="js" id="js">
+<label for="js">JavaScript</label>
+</span>
+<span>
+<input type="checkbox" name="skill" value="py" id="py">
+<label for="py">Python</label>
+</span>
+<span>
+<input type="checkbox" name="skill" value="sql" id="sql">
+<label for="sql">SQL</label>
+</span>
+</div>
+</div>
+</fieldset>
+ 
+<fieldset>
+<legend>Educational Information</legend>
+ 
+<div class="field">
+<label for="hq">Highest Qualification</label>
+<input type="text" class="input-box" id="hq" name="hq" required>
+</div>
+ 
+<div class="field">
+<label for="uni">University/College Name</label>
+<input type="text" class="input-box" id="uni" name="uni" required>
+</div>
+ 
+<div class="field">
+<label for="year">Graduation Year</label>
+<input type="text" class="input-box" id="year" name="year" required>
+</div>
+</fieldset>
+ 
+<fieldset>
+<legend>Additional Information</legend>
+ 
+<div class="field">
+<label for="file">Upload Resume/CV</label>
+<input type="text" class="input-box" id="file" name="file" required>
+</div>
+ 
+<div class="field">
+<label for="cvl">Cover Letter</label>
+<textarea id="cvl" name="cvl" required maxlength="300"></textarea>
+</div>
+ 
+<div class="field">
+<label for="address">Current Address</label>
+<input type="text" class="input-box" id="address" name="address" required>
+</div>
+</fieldset>
+ 
+<div id="button-row">
+<input id="resetbtn" type="reset" value="Reset">
+<button id="submitbtn" type="submit">Submit Application</button>
+</div>
+ 
+</form>
+</div>
+</div>
+</section>
+</body>
+ 
+</html>
